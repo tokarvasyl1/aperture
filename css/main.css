@@ -292,6 +292,10 @@ header nav ul li a:hover{
     padding-right: 46px;
 }
 
+.fourth_section .container div img{
+    display: block;
+
+}
 
 
 /*секция 5*/

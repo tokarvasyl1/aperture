@@ -75,6 +75,16 @@
         font-size: 5px;
         padding: 1px;
     }
+
+    .fourth_section .container h2{
+        font-size: 30px;
+    }
+    .fourth_section .container p{
+        font-size: 20px;
+    }
+    .fourth_section .container div img{
+        max-width: 15%;
+    }
 }
 @media only screen and (max-width: 375px) {
 
