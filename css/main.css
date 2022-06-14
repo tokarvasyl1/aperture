@@ -20,6 +20,12 @@
 header{
     padding: 24px 0;
     background: #181818;
+
+}
+
+.logo img{
+    margin-left: -150px;
+    display: block;
 }
 
 .container{
@@ -32,6 +38,7 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
+
 
 header nav ul{
     list-style: none;
@@ -392,4 +399,20 @@ header nav ul li a:hover{
     top: 6px;
 }
 
+/*@keyframes logos {*/
+/*    0%{*/
+/*        position: relative;*/
+/*    }*/
+/*    50%{*/
+/*        transform: scale(1.2);*/
+/*    }*/
+/*    100%{*/
+/*        transform: scale(1);*/
+/*    }*/
+/*}*/
+
+/*header .logo{*/
+/*    animation: logos infinite 4s;*/
+/*    display: inline-block;*/
+/*}*/
 

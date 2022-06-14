@@ -1,0 +1,97 @@
+
+@media only screen and (max-width: 1024px) {
+    .logo img{
+        margin-left: -70px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .logo img{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 827px) {
+    .logo img{
+    max-width: 80%
+}
+    header nav a {
+        font-size: 10px;
+    }
+
+    header nav ul li:first-of-type a {
+        font-size: 8px;
+    }
+    header nav ul li:last-of-type a{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+
+    header nav a {
+        font-size: 7px;
+    }
+
+    header nav ul li:first-of-type a {
+        font-size: 5px;
+    }
+
+    header nav ul li:last-of-type a {
+        font-size: 7px;
+        padding: 2px 7px;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 13px;
+    }
+    .logo img{
+        max-width: 60%
+    }
+    header nav ul li:last-of-type  {
+       margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    header nav a {
+        font-size: 5px;
+    }
+
+    header nav ul li:first-of-type a {
+        font-size: 4px;
+    }
+
+    header nav ul li:last-of-type a {
+        font-size: 5px;
+        padding: 1px;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+    .logo img{
+        max-width: 50%;
+    }
+    header nav a {
+        font-size: 4px;
+    }
+
+    header nav ul li:first-of-type a {
+        font-size: 3px;
+    }
+
+    header nav ul li:last-of-type a {
+        font-size: 4px;
+        padding: 1px;
+    }
+}
+@media only screen and (max-width: 320px) {
+
+}
