@@ -28,6 +28,7 @@
         max-width: 15%;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .third_banner {
         background-size: cover;
@@ -41,7 +42,6 @@
         background-size: cover;
     }
 }
-
 
 @media only screen and (max-width: 641px) {
 
@@ -86,7 +86,7 @@
 
     header nav ul li:last-of-type a {
         font-size: 5px;
-        padding: 1px;
+        padding: 1px 5px 1px 5px;
     }
 
     .fourth_section .container h2{
@@ -129,6 +129,7 @@
         font-size: 20px;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .logo img{
         max-width: 50%;
@@ -146,6 +147,7 @@
         padding: 1px;
     }
 }
+
 @media only screen and (max-width: 320px) {
 
 }
