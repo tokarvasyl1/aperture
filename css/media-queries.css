@@ -24,9 +24,22 @@
         font-size: 10px;
         padding: 5px 10px;
     }
+    .fourth_section .container div img{
+        max-width: 15%;
+    }
 }
 @media only screen and (max-width: 767px) {
+    .third_banner {
+        background-size: cover;
+    }
 
+    .second_banner {
+        background-size: cover;
+    }
+
+    .fifth_banner {
+        background-size: cover;
+    }
 }
 
 
@@ -82,12 +95,39 @@
     .fourth_section .container p{
         font-size: 20px;
     }
-    .fourth_section .container div img{
-        max-width: 15%;
+
+    .second_banner {
+        padding-right: 10px;
     }
+    .third_banner {
+
+        padding-right: 10px;
+    }
+    .fifth_banner {
+        padding-right: 10px;
+    }
+
+
 }
 @media only screen and (max-width: 375px) {
-
+    .components li{
+        font-size: 8px;
+    }
+    .main_banner h3{
+        font-size: 10px;
+    }
+    .main_banner h1{
+        font-size: 45px;
+    }
+    .main_banner p {
+        font-size: 10px;
+    }
+    .sixth_section .container h2{
+        font-size: 30px;
+    }
+    .sixth_section h3{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 360px) {
     .logo img{
