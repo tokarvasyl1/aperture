@@ -41,6 +41,9 @@
     .fifth_banner {
         background-size: cover;
     }
+    .main_banner{
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 641px) {
@@ -56,6 +59,21 @@
     header nav ul li:last-of-type a {
         font-size: 7px;
         padding: 2px 7px;
+    }
+    .main_banner{
+        align-items: center;
+    }
+    .fourth_section .container div{
+        max-width: 128px;
+        display: block;
+        margin: auto;
+    }
+    .fourth_section .container div img {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .fourth_section{
+        padding-bottom: 50px;
     }
 }
 
@@ -106,6 +124,8 @@
     .fifth_banner {
         padding-right: 10px;
     }
+
+
 
 
 }
