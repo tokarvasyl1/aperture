@@ -182,26 +182,31 @@ header nav ul li a:hover{
 .components li:before{
     content: "";
     display: inline-block;
-    background-image: url("../images/icon1.svg");
+    background-image: url("../images/sprites.png");
+    background-repeat: no-repeat ;
     width: 16px;
     height: 16px;
     margin-right: 6px;
     position: relative;
     top: 7px;
+    background-position: -40px
+
 }
 
 .components li:nth-child(2):before{
-    background-image: url("../images/icon2.svg");
+    background-position: -76px;
 }
 
 .components li:nth-child(3):before{
-    background-image: url("../images/icon3.svg");
-    width: 32px;
+    width: 33px;
+    height: 16px;
+    background-position: -112px;
 }
 
 .components li:nth-child(4):before{
-    background-image: url("../images/icon4.svg");
-    width: 10px;
+    width: 11px;
+    height: 16px;
+    background-position: -10px;
 }
 
 
