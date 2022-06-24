@@ -31,6 +31,29 @@
 
 @media only screen and (max-width: 767px) {
 
+    .header-wrapper{
+        width: calc(100% - 100px);
+    }
+    .nav__list{
+        display: inline-block;
+    }
+    .nav{
+        position: fixed;
+    }
+    .nav__content{
+        position: fixed;
+        visibility: hidden;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+
+    }
+    .nav__list-item{
+        opacity: 0;
+    }
+    .cd-header {
+        position: fixed;
+    }
+
     .nav-but-wrap{
         display: inline-block;
     }
