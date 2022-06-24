@@ -81,10 +81,7 @@
 
 }
 .logo-wrap {
-    position: absolute;
     display:block;
-    left:0;
-    top: 10px;
     cursor: pointer;
 }
 .logo-wrap a {
@@ -185,39 +182,35 @@
     position: relative;
     visibility: inherit;
     top: 50%;
-    margin-top: 20px;
     -webkit-transform: none;
     transform: none;
     width: 100%;
     text-align: center;
 }
 .nav__list {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    z-index: 2;
+
     display: flex;
     align-items: center;
+    list-style: none;
 }
 .nav__list-item {
-    position: relative;
-    display: block;
+
     -webkit-transition-delay: 0.8s;
     transition-delay: 0.8s;
     opacity: 1;
     text-align: center;
     color: #fff;
-    overflow: hidden;
 
-    -webkit-transform: translate(100px, 0%);
-    transform: translate(100px, 0%);
+
     -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
     transition: opacity .2s ease, -webkit-transform .3s ease;
     transition: opacity .2s ease, transform .3s ease;
     transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 32px;
+    margin: 0 0 0 32px;
+}
+
+.nav__list-item:first-of-type{
+    margin-right: 24px;
 }
 
 
@@ -230,13 +223,10 @@
     letter-spacing: 0.4px;
     color: #000000;
 
-
     text-decoration: none;
     color: rgba(255,255,255,0.6);
     overflow: hidden;
     cursor: pointer;
-    padding: 0;
-    z-index: 2;
     display: inline-block;
     text-transform: none;
     -webkit-transition: all 200ms linear;
@@ -245,16 +235,14 @@
 }
 
 .nav__list-item:first-of-type a{
-    margin-right: 20px;
     font-size: 13px;
 }
 
 .nav__list-item:last-of-type a{
-    padding: 11px 20px;
+    padding: 9px 20px;
     background-color: #FFFFFF;
     border-radius: 14px;
     color: #000000;
-
     transition: 0.3s;
 }
 
@@ -532,4 +520,9 @@ body.light .switch-wrap p span:nth-child(1):before {
     opacity: 0.8;
     border-radius: 50%;
     box-shadow: 0 0 0 20px rgba(255,255,255,.1);
+}
+
+.cd-header > .container{
+    padding-left: 24px;
+    padding-right: 24px;
 }
