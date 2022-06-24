@@ -30,6 +30,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .nav-but-wrap{
+        display: inline-block;
+    }
+
     .third_banner {
         background-size: cover;
     }
