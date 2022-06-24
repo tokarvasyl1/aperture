@@ -10,6 +10,11 @@
     }
 }
 @media only screen and (max-width: 827px) {
+
+    .nav__list-item {
+        margin: 0 0 0 20px;
+    }
+
     .logo img{
     max-width: 80%
 }
@@ -76,7 +81,9 @@
         margin-right: inherit;
     }
 
-
+    .nav__list-item:last-of-type a{
+        font-size: 24px;
+    }
 
     .nav__list-item a{
         text-transform: uppercase;
