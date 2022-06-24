@@ -29,7 +29,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 
 
@@ -55,6 +55,7 @@
     }
     .nav__list-item{
         opacity: 0;
+        margin-bottom: 20px;
     }
     .cd-header {
         position: fixed;
@@ -64,7 +65,7 @@
         display: inline-block;
         padding: 0;
         position: relative;
-        right: 0px;
+        right: 0;
         top: 5px;
     }
     .nav__list-item:first-of-type a{
@@ -91,8 +92,6 @@
         color: rgba(255,255,255,0.6);
         overflow: hidden;
         cursor: pointer;
-        padding-left: 0px;
-        padding-right: 0px;
         z-index: 2;
         display: inline-block;
         -webkit-transition: all 200ms linear;
@@ -103,6 +102,7 @@
         background: none;
         padding: 0;
         color: rgba(255,255,255,0.6);
+        border-radius: inherit;
     }
 
     .nav__list-item:last-of-type a:hover{
