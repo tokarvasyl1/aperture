@@ -1,14 +1,14 @@
 
 @media only screen and (max-width: 1024px) {
-    .logo img{
-        margin-left: -70px;
-    }
+
 }
+
 @media only screen and (max-width: 992px) {
     .logo img{
         margin-left: 0px;
     }
 }
+
 @media only screen and (max-width: 827px) {
 
     .nav__list-item {
@@ -137,6 +137,10 @@
 }
 
 @media only screen and (max-width: 641px) {
+    .container{
+    padding-right: 24px;
+    padding-left: 24px;
+    }
 
     header nav a {
         font-size: 7px;
@@ -219,6 +223,7 @@
 
 
 }
+
 @media only screen and (max-width: 375px) {
     .components li{
         font-size: 8px;

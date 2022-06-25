@@ -12,48 +12,49 @@
 }
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
-header{
+
+header {
     padding: 24px 0;
     background: #181818;
 
 }
 
-.logo img{
+.logo img {
     display: block;
 }
 
-.container{
+.container {
     max-width: 1168px;
     margin: auto;
 }
 
-header .container{
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
-header nav ul{
+header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-header nav ul li{
+header nav ul li {
     margin-left: 32px;
 }
 
-header nav  a{
+header nav a {
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: 400;
@@ -63,19 +64,19 @@ header nav  a{
     display: inline-block;
 }
 
-header nav ul li:first-of-type{
+header nav ul li:first-of-type {
     margin-right: 24px;
 }
 
-header nav ul li:first-of-type a{
+header nav ul li:first-of-type a {
     font-size: 13px;
 }
 
-header nav ul li:last-of-type{
+header nav ul li:last-of-type {
     margin-left: 31px;
 }
 
-header nav ul li:last-of-type a{
+header nav ul li:last-of-type a {
     padding: 11px 20px;
     background-color: #FFFFFF;
     border-radius: 14px;
@@ -88,34 +89,34 @@ header nav ul li:last-of-type a{
     transition: 0.3s;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     transform: scale(1.1);
 }
 
 
 /*Анимация*/
-.delay03{
+.delay03 {
     animation-delay: 0.3s;
 }
 
-.delay05{
+.delay05 {
     animation-delay: 0.5s;
 }
 
-.delay07{
+.delay07 {
     animation-delay: 0.7s;
 }
 
-.delay09{
+.delay09 {
     animation-delay: 0.9s;
 }
 
-.delay14{
+.delay14 {
     animation-delay: 1.1s;
 }
 
 /*секция 1*/
-.main_banner{
+.main_banner {
     background-image: url("../images/bg1.png");
     background-size: cover;
     height: 82vh;
@@ -126,13 +127,13 @@ header nav ul li a:hover{
     position: relative;
 }
 
-.main_banner .container{
+.main_banner .container {
     max-width: 580px;
     margin: inherit;
     text-align: center;
 }
 
-.main_banner h3{
+.main_banner h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -143,7 +144,7 @@ header nav ul li a:hover{
     color: #C0C0C0;
 }
 
-.main_banner h1{
+.main_banner h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -152,7 +153,7 @@ header nav ul li a:hover{
     color: #FFFFFF;
 }
 
-.main_banner p{
+.main_banner p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -161,7 +162,7 @@ header nav ul li a:hover{
     color: #C0C0C0;
 }
 
-.components{
+.components {
     display: flex;
     position: absolute;
     right: 40px;
@@ -169,7 +170,7 @@ header nav ul li a:hover{
     list-style: none;
 }
 
-.components li{
+.components li {
     margin-left: 16px;
     font-family: 'Poppins';
     font-style: normal;
@@ -179,11 +180,11 @@ header nav ul li a:hover{
     color: #FFFFFF;
 }
 
-.components li:before{
+.components li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/sprites.png");
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     width: 16px;
     height: 16px;
     margin-right: 6px;
@@ -193,17 +194,17 @@ header nav ul li a:hover{
 
 }
 
-.components li:nth-child(2):before{
+.components li:nth-child(2):before {
     background-position: -76px;
 }
 
-.components li:nth-child(3):before{
+.components li:nth-child(3):before {
     width: 33px;
     height: 16px;
     background-position: -112px;
 }
 
-.components li:nth-child(4):before{
+.components li:nth-child(4):before {
     width: 11px;
     height: 16px;
     background-position: -10px;
@@ -211,7 +212,7 @@ header nav ul li a:hover{
 
 
 /*секция 2*/
-.second_banner{
+.second_banner {
     background-image: url("../images/bg2.jpg");
     background-size: 100% 100%;
     height: 75vh;
@@ -222,12 +223,12 @@ header nav ul li a:hover{
     position: relative;
 }
 
-.second_banner .container{
+.second_banner .container {
     margin: inherit;
     max-width: 298px;
 }
 
-.second_banner h3{
+.second_banner h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -238,7 +239,7 @@ header nav ul li a:hover{
     color: #FFFFFF;
 }
 
-.second_banner p{
+.second_banner p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -247,7 +248,7 @@ header nav ul li a:hover{
     color: #C0C0C0;
 }
 
-.third_banner{
+.third_banner {
     background-image: url("../images/bg3.jpg");
     background-size: 100% 100%;
     height: 75vh;
@@ -258,12 +259,12 @@ header nav ul li a:hover{
     position: relative;
 }
 
-.third_banner .container{
+.third_banner .container {
     margin: inherit;
     max-width: 273px;
 }
 
-.third_banner .container h3{
+.third_banner .container h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -274,7 +275,7 @@ header nav ul li a:hover{
     color: #FFFFFF;
 }
 
-.third_banner .container p{
+.third_banner .container p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -284,14 +285,14 @@ header nav ul li a:hover{
 }
 
 /*секция 4*/
-.fourth_section{
+.fourth_section {
     background: #000000;
     padding-top: 113px;
     padding-bottom: 140px;
 }
 
 
-.fourth_section .container h2{
+.fourth_section .container h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -303,7 +304,7 @@ header nav ul li a:hover{
 
 }
 
-.fourth_section .container p{
+.fourth_section .container p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -315,43 +316,45 @@ header nav ul li a:hover{
 }
 
 
-.clients_img img{
+.clients_img img {
     display: block;
     max-width: 128px;
     width: 100%;
 }
 
-.owl-stage{
+.owl-stage {
     display: flex;
     align-items: center;
 }
-.clients_img{
+
+.clients_img {
     justify-content: space-between;
     display: flex;
 }
 
 
-.owl-nav .owl-prev:before{
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    content: "\f053";
-    color: #FFFFFF;
-}
-.owl-nav .owl-prev:before{
+.owl-nav .owl-prev:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f053";
     color: #FFFFFF;
 }
 
-.owl-nav .owl-next:before{
+.owl-nav .owl-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #FFFFFF;
+}
+
+.owl-nav .owl-next:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f054";
     color: #FFFFFF;
 }
 
-.owl-nav{
+.owl-nav {
     width: 100%;
     position: absolute;
     display: flex;
@@ -359,7 +362,7 @@ header nav ul li a:hover{
 }
 
 /*секция 5*/
-.fifth_banner{
+.fifth_banner {
     background-image: url("../images/bg5.jpg");
     background-size: 100% 100%;
     height: 75vh;
@@ -370,12 +373,12 @@ header nav ul li a:hover{
     position: relative;
 }
 
-.fifth_banner .container{
+.fifth_banner .container {
     max-width: 254px;
     margin: inherit;
 }
 
-.fifth_banner .container h3{
+.fifth_banner .container h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -396,19 +399,18 @@ header nav ul li a:hover{
 }
 
 
-
 /*секция 6*/
-.sixth_section{
+.sixth_section {
     padding-top: 113px;
     padding-bottom: 108px;
     background: #000000;
 }
 
-.sixth_section .container{
+.sixth_section .container {
     text-align: center;
 }
 
-.sixth_section .container h2{
+.sixth_section .container h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -418,7 +420,7 @@ header nav ul li a:hover{
     margin-bottom: 15px;
 }
 
-.sixth_section h3{
+.sixth_section h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -428,7 +430,7 @@ header nav ul li a:hover{
     margin-bottom: 22px;
 }
 
-.sixth_section a{
+.sixth_section a {
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -447,11 +449,11 @@ header nav ul li a:hover{
     position: relative;
 }
 
-.sixth_section a:hover{
+.sixth_section a:hover {
     transform: scale(1.2);
 }
 
-.sixth_section a:before{
+.sixth_section a:before {
     content: "";
     display: inline-block;
     background: #000000;
